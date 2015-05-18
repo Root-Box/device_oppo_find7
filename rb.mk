@@ -4,7 +4,7 @@ $(call inherit-product, device/oppo/find7/full_find7.mk)
 # Inherit some common RootBox stuff.
 $(call inherit-product, vendor/rootbox/configs/common.mk)
 
-PRODUCT_NAME := rootbox_find7
+PRODUCT_NAME := rb_find7
 PRODUCT_DEVICE := find7
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
