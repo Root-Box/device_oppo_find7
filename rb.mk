@@ -2,7 +2,7 @@ $(call inherit-product, device/oppo/find7/full_find7.mk)
 
 
 # Inherit some common RootBox stuff.
-$(call inherit-product, vendor/rootbox/configs/common.mk)
+$(call inherit-product, vendor/rb/configs/common.mk)
 
 PRODUCT_NAME := rb_find7
 PRODUCT_DEVICE := find7
